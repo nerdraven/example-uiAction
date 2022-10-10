@@ -14,4 +14,4 @@ function rev() {
   git describe --always --match "v[0-9].*" --dirty
 }
 
-echo STABLE_BUILD_EXAMPLE-TOPMENU_LABEL $(rev)
+echo STABLE_BUILD_TRIGGER_LABEL $(rev)
